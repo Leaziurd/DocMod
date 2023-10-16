@@ -25,7 +25,7 @@ public class DMSpaceSuitOverlay {
             int w = event.getWindow().getGuiScaledWidth();
             int posX = 4;
             int posY = 4;
-            Minecraft.getInstance().font.draw(event.getPoseStack(), "Air: " + SpaceSuitHelmet.air + "%", posX, posY, -1);
+            event.getGuiGraphics().drawString(Minecraft.getInstance().font, "Air: " + SpaceSuitHelmet.air + "%", posX, posY, -1);
             //RenderSystem.setShaderTexture(0, SPACE_SUIT_OVERLAY);
             //Minecraft.getInstance().screen.blit(poseStack, 0, 0, 0, 0, 1920, 1080);
         }

@@ -17,7 +17,8 @@ import net.minecraftforge.api.distmarker.OnlyIn;
 
 @OnlyIn(Dist.CLIENT)
 public class ComputerHarwareMenu/* extends AbstractContainerMenu*/ {
-//    private static final int SLOT_COUNT = 9;
+//    private
+//    static final int SLOT_COUNT = 9;
 //    private static final int INV_SLOT_START = 9;
 //    private static final int INV_SLOT_END = 36;
 //    private static final int USE_ROW_SLOT_START = 36;
